@@ -50,7 +50,7 @@ INPUT_ALT = loc.height.value   # in m
 # ----------------------------------------------------------------------------
 START_DATE = Time('2020-01-01 00:00:00', format='iso')
 END_DATE = Time('2021-01-01 00:00:00', format='iso')
-STEPS = 5
+STEPS = 100
 # ----------------------------------------------------------------------------
 # ra / dec in degrees (forms a map)
 GRID_RA = np.linspace(0, 359, 10)
